@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: development
+  datasource:
+    url: jdbc:mysql://localhost:33306/timecard_mgmt
+    username: root
+    password: admin
+
+  flyway:
+    enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: none
