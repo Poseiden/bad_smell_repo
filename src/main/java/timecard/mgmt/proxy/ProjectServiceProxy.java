@@ -20,7 +20,6 @@ public class ProjectServiceProxy {
 
         Map<String, String> uriVariables = Maps.newHashMap();
         uriVariables.put("projects", JSONObject.toJSONString(verifyProjectExistDTOs));
-        //todo magic number, 写死的字符串
         return restTemplate.exchange("http://localhost:8081/projects/invalid-project-ids?projects={projects}",
                 GET, null, new ParameterizedTypeReference<List<VerifyProjectExistDTO>>() {
         }, uriVariables).getBody();
