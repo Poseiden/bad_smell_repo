@@ -21,7 +21,6 @@ public class TimecardController {
     @PostMapping("/timecards/submit")
     @ResponseStatus(OK)
     public void submitTimecard(@RequestBody SubmitTimecardDTO submitTimecardDto) {
-        //讲师注释：bad smell，直接调用了，没有区分 application 和 domain service
         this.timecardService.save(submitTimecardDto);
     }
 
