@@ -42,7 +42,6 @@ sh ./env-build-scripts/create_database_instance.sh  //在项目根目录下执�
 |    工作小时数  | working hours |  workingHours  | / | / | 
 |    是否收取费用  | billable |  billable  | / | / | 
 |     备注  | note |  note  | / | / | 
-|    工时  | effort |  Effort  | effort | / | 
 |    工时状态  | effort status |  effortStatus  | / | / | 
 |    已保存  | saved |  saved  | / | / | 
 |    已提交  | submitted |  submitted  | / | / | 
