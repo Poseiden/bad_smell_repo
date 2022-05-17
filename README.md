@@ -46,12 +46,12 @@ sh ./env-build-scripts/create_database_instance.sh  //在项目根目录下执�
 |    已保存  | saved |  saved  | / | / | 
 |    已提交  | submitted |  submitted  | / | / | 
 
-### [工时卡]词汇表
+### [考勤卡]词汇表
 | 领域名词 |  英文   |  模型  |   表名  |  备注  |
-|  :----:  | :----: | :----: | :----: | :----: |
-| 工时卡  | timecard | Timecard | / | / |  
+|:----:| :----: | :----: | :----: | :----: |
+| 考勤卡  | timecard | Timecard | / | / |  
 | 时间段  | period | Period | / | / | 
-| 总小时数  | total hours | totalHours | / | / | 
+| 总小时数 | total hours | totalHours | / | / | 
 | 登记项  | entry |  Entry | / | / | 
 
 ### [登记项]词汇表
